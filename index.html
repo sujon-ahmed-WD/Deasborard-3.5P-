@@ -12,32 +12,33 @@
 <body>
     <header>
         <nav>
-            <div class="w-11/12 mx-auto flex item-center justify-between mt-5  mb-10">
+            <div class="w-11/12 mx-auto flex sm:flex-row flex-col items-center justify-between mt-5 mb-10 gap-4">
+                <!-- Left Side -->
                 <div class="child1">
-                    <h3 class="text-2xl font-samibold">Dashboard</h3>
+                    <h3 class="text-2xl font-semibold">Dashboard</h3>
                 </div>
-                <div class="flex justify-between gap-4">
 
-
+                <!-- Right Side Buttons -->
+                <div class="flex items-center gap-4">
                     <button class="p-2 hover:bg-gray-100 rounded-full">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="size-6">
+                            stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
                         </svg>
-
                     </button>
 
-                    <button class="h-10 w-10 bg-blue-600 rounded-full text-white">B</button>
-
-
+                    <button class="h-10 w-10 bg-blue-600 rounded-full text-white flex items-center justify-center">
+                        B
+                    </button>
                 </div>
             </div>
         </nav>
 
+
         <!-- Card Section -->
 
-        <div class="w-11/12 mx-auto flex gap-4 sm-flex-">
+        <div class="w-11/12 mx-auto flex sm:flex-row flex-col gap-4  mb-5">
 
             <div class="w-11/12 mx-auto">
                 <div class="bg-white rounded-xl p-6 shadow-sm">
@@ -56,7 +57,7 @@
                         </div>
                     </div>
                 </div>
-    
+
             </div>
             <div class="w-11/12 mx-auto">
                 <div class="bg-white rounded-xl p-6 shadow-sm">
@@ -75,7 +76,26 @@
                         </div>
                     </div>
                 </div>
-    
+
+            </div>
+            <div class="w-11/12 mx-auto">
+                <div class="bg-white rounded-xl p-6 shadow-sm">
+                    <h2 class="mb-2">TotalTask</h2>
+                    <div class="flex justify-between items-center">
+                        <div class="child1">
+                            <h3 class="text-3xl font-samibold mb-2">3</h3>
+                            <h3 class="text-sm text-gray-500">11 last month</h3>
+                        </div>
+                    <div class="p-3 bg-green-100 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-6 w-6 text-green-500 rounded-full ">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+                    </div>
+                    </div>
+                </div>
+
             </div>
             <div class="w-11/12 mx-auto">
                 <div class="bg-white rounded-xl p-6 shadow-sm">
@@ -94,29 +114,107 @@
                         </div>
                     </div>
                 </div>
-    
-            </div>
-            <div class="w-11/12 mx-auto">
-                <div class="bg-white rounded-xl p-6 shadow-sm">
-                    <h2 class="mb-2">TotalTask</h2>
-                    <div class="flex justify-between items-center">
-                        <div class="child1">
-                            <h3 class="text-3xl font-samibold mb-2">3</h3>
-                            <h3 class="text-sm text-gray-500">11 last month</h3>
-                        </div>
-                        <div class="p-3 bg-blue-100 rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="h-6 w-6 text-blue-600 rounded-full">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z" />
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-    
+
             </div>
         </div>
     </header>
+    <!-- Task and Today Section -->
+    <div class="w-11/12 mx-auto flex sm:flex-row flex-col justify-between gap-4 ">
+        <div class="p-6 rounded-xl shadow-sm w-[50%]  ">
+            <h1 class="mb-2 text-2xl font-samibold">Today's Tasks</h1>
+
+            <div class="flex justify-between ">
+
+                <div>
+                    <div class="flex items-center gap-4 mb-2">
+                        <div class="h-2 w-2 rounded-full bg-green-600"></div>
+                        <div>Complete Project Proposal</div>
+                    </div>
+                    <div class="flex items-center gap-4 mb-2">
+                        <div class="h-2 w-2 rounded-full bg-orange-400"></div>
+                        <div> review team update </div>
+                    </div>
+                    <div class="flex items-center gap-4 mb-2">
+                        <div class="h-2 w-2 rounded-full bg-blue-600"></div>
+                        <div>Prepare for child meeting</div>
+                    </div>
+                </div>
+                <div class="child2 text-gray-500">
+                    <h2>high</h2>
+                    <h2>normal</h2>
+                    <h2>low</h2>
+                </div>
+            </div>
+        </div>
+        <div class="p-6 rounded-xl  shadow-sm w-[50%]">
+            <div class=" grid grid-cols-4 border-b border-gray-100 tex-sm text-gray-500">
+                <div class=" mb-4">TASK TITLE</div>
+                <div class="mb-4">PRIORITY</div>
+                <div class="mb-4">TEAM</div>
+                <div class="mb-4">CREATED AT</div>
+
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="h-2 w-2 rounded-full bg-green-600"></div>
+                    <div class="text-xl font-samibold">Test Low task</div>
+                </div>
+                <div class="px-3  py-1 roed-full bg-blue-50 text-blue-600 text-sm mb-4">Low</div>
+                <div class="flex -space-x-2 mb-4 ">
+                    <div
+                        class="w-8 h-8 p-2 rounded-full border-b border-white-100 bg-blue-500 flex items-center justify-center text-white   ">
+                        CA
+                    </div>
+                    <div class="w-8 h-8 p-2 rounded-full bg-green-500 flex items-center justify-center text-white">
+                        BA
+                    </div>
+                    <div class="w-8 h-8 p-2 rounded-full bg-yellow-500 flex items-center justify-center text-white">
+                        DA
+                    </div>
+                </div>
+                <div class="mb-4">9 month ago</div>
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="h-2 w-2 rounded-full bg-orange-500"></div>
+                    <div class="text-xl font-samibold">Test Task</div>
+                </div>
+                <div class="px-3 py-1 roed-full bg-gray-50 text-gray-600 text-sm mb-4">Low</div>
+                <div class="flex -space-x-2 mb-4 ">
+                    <div
+                        class="w-8 h-8 p-2 rounded-full border-b border-white-100 bg-red-500 flex items-center justify-center text-white   ">
+                        CA
+                    </div>
+                    <div class="w-8 h-8 p-2 rounded-full bg-purple-600 flex items-center justify-center text-white">
+                        BA
+                    </div>
+                    <div class="w-8 h-8 p-2 rounded-full bg-yellow-500 flex items-center justify-center text-white">
+                        DA
+                    </div>
+                </div>
+                <div class="mb-4">9 month ago</div>
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="h-2 w-2 rounded-full bg-red-600"></div>
+                    <div class="text-xl font-samibold">Test to high</div>
+                </div>
+                <div class="px-3 py-1 roed-full bg-red-50 text-red-600 text-sm mb-4">Low</div>
+                <div class="flex -space-x-2 mb-4 ">
+                    <div
+                        class="w-8 h-8 p-2 rounded-full border-b border-white-100 bg-blue-500 flex items-center justify-center text-white   ">
+                        CA
+                    </div>
+                    <div class="w-8 h-8 p-2 rounded-full bg-green-500 flex items-center justify-center text-white">
+                        BA
+                    </div>
+                    <div class="w-8 h-8 p-2 rounded-full bg-red-500 flex items-center justify-center text-white">
+                        DA
+                    </div>
+                    <div class="w-8 h-8 p-2 rounded-full bg-yellow-500 flex items-center justify-center text-white">
+                        DA
+                    </div>
+                </div>
+                <div class="mb-4">9 month ago</div>
+
+
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
